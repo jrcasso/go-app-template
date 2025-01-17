@@ -1,0 +1,26 @@
+# Go build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output directories
+out/
+
+# Vendor dependencies (if you don't commit them)
+vendor/
+
+# Coverage and profiling data
+*.out
+*.cov
+*.coverprofile
+cpu.prof
+mem.prof
+trace.out
+
+# Logs, temporary files
+*.log
+*.tmp
+*.swp
+*.swo

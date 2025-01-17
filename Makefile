@@ -1,8 +1,8 @@
 run:
-	go run example/main.go
+	go run main.go
 
 build:
-	go build -o bin/main example/main.go
+	go build -o out/main main.go
 
 cover:
 	go test -covermode=count -coverprofile=count.out
